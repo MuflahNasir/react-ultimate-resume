@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 const DIMENSION = 75;
 
 export const styles = {

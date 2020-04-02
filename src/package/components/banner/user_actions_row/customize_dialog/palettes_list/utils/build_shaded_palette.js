@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import PaletteHelper from 'values.js';
 
 export const buildShadedPalette = hex => {

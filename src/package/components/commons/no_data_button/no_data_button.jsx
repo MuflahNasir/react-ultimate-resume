@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import { Button } from '@wld/ui';
 
 import React from 'react';

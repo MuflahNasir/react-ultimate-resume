@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import chroma from 'chroma-js';
 import { createScreenWidthMediaQuery, flex } from '../../utils/styles/styles_utils';
 

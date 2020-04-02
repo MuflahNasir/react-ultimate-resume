@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React, { useMemo } from 'react';
 import { animated } from 'react-spring';
 import { createUseStyles, useTheme } from 'react-jss';

@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React, { useContext } from 'react';
 
 import { FormattedMessage } from 'react-intl';

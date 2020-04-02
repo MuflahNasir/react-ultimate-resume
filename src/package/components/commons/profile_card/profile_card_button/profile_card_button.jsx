@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React, { useCallback } from 'react';
 
 import injectSheet from 'react-jss';

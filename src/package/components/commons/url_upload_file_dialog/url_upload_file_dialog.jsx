@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React, { useContext } from 'react';
 
 import { UploadFileDialog } from '../upload_file_dialog/upload_file_dialog';

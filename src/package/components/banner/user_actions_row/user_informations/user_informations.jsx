@@ -8,6 +8,8 @@ import { Avatar } from '../../../commons/avatar/avatar';
 import { Column } from '../../../commons/column/column';
 import { DeveloperProfileContext } from '../../../../utils/context/contexts';
 
+import Profile from '../../../../assets/images/profile.jpg'
+
 import { styles } from './user_informations_styles';
 import { useAdditionalNodes } from '../../../hooks/use_additional_nodes';
 
@@ -20,7 +22,7 @@ const UserInformationsComponent = () => {
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            <Avatar src={data.basics?.picture} />
+            <Avatar src={Profile} />
             <Column customClasses={{ container: classes.textColumn }}>
                 <Typography
                     customClasses={{

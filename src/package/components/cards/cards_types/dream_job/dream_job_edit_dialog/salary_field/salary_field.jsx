@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { TextField } from '@wld/ui';

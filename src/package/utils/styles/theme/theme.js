@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import mergeWith from 'lodash/mergeWith';
 import merge from 'lodash/merge';
 import cloneDeep from 'lodash/cloneDeep';

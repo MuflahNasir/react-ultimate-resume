@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React, { useMemo } from 'react';
 
 import chroma from 'chroma-js';

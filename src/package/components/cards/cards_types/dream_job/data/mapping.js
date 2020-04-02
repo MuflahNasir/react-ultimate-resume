@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import uuid from 'uuid/v4';
 
 export const mapDreamJobFromJsonResume = jsonResume => ({

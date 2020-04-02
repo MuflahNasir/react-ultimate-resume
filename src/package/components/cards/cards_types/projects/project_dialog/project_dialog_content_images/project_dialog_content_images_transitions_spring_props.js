@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import { config } from 'react-spring';
 
 export const PROJECT_DIALOG_CONTENT_IMAGES_TRANSITIONS_SPRING_PROPS = {

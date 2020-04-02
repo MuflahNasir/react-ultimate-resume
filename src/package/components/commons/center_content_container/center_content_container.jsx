@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import * as React from 'react';
 
 import cn from 'classnames';

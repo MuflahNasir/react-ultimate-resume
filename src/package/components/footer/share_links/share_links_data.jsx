@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
@@ -14,11 +15,11 @@ export const SHARE_LINKS_DATA = Object.freeze({
         tooltipTranslation: (
             <FormattedMessage
                 id="Footer.shareLinks.shareOnTooltip"
-                defaultMessage="Share on {platform}"
+                defaultMessage="Find me on {platform}"
                 values={{ platform: 'Twitter' }}
             />
         ),
-        getLink: ({ translatedMessage }) => `https://twitter.com/intent/tweet?text=${translatedMessage}`
+        getLink: ({ translatedMessage }) => `https://twitter.com/MuflahNasir`
     },
     facebook: {
         icon: FacebookIcon,
@@ -29,7 +30,7 @@ export const SHARE_LINKS_DATA = Object.freeze({
                 values={{ platform: 'Facebook' }}
             />
         ),
-        getLink: ({ link }) => `https://www.facebook.com/sharer/sharer.php?u=${encodeURI(link)}`
+        getLink: ({ link }) => `https://www.facebook.com/muflah.nasir`
     },
     linkedIn: {
         icon: LinkedInIcon,
@@ -40,14 +41,6 @@ export const SHARE_LINKS_DATA = Object.freeze({
                 values={{ platform: 'LinkedIn' }}
             />
         ),
-        getLink: ({ link }) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURI(link)}`
-    },
-    copyShareUrl: {
-        icon: props => (
-            <CopyWrapper value={(typeof window === 'undefined' ? {} : window).location?.href}>
-                <ShareIcon {...props} />
-            </CopyWrapper>
-        ),
-        tooltipTranslation: <FormattedMessage id="Footer.shareLinks.copyUrl" defaultMessage="Copy profile's URL" />
+        getLink: ({ link }) => `https://www.linkedin.com/in/muflah-nasir-68a0aa145/`
     }
 });

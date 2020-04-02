@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import { useContext } from 'react';
 import { get } from 'lodash';
 

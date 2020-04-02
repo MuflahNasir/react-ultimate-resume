@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 export const DEFAULT_CARD_ORDER = [
     { type: 'basics', variant: 4 },
     { type: 'skills', variant: 0 },

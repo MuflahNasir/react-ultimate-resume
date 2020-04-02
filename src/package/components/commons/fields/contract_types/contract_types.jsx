@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
 import capitalize from 'lodash';

@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import { createElement } from 'react';
 
 const ProfileCardEditDialogComponent = ({ open, onClose, editDialog, data, isEditing }) => {

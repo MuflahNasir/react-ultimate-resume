@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React from 'react';
 
 import { BouncingRoundButton } from '../../../../commons/bouncing_round_button/bouncing_round_button';

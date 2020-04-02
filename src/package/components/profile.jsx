@@ -4,6 +4,7 @@ import { createUseStyles, ThemeProvider } from 'react-jss';
 
 import mergeWith from 'lodash/mergeWith';
 import cloneDeep from 'lodash/cloneDeep';
+import computer from '../assets/images/computer.jpg'
 
 import { buildTheme } from '../utils/styles/theme/theme';
 import { Banner } from './banner/banner';
@@ -41,7 +42,7 @@ const DEFAULT_OPTIONS = Object.freeze({
     locale: 'en',
     customization: {
         imageHeader: {
-            url: 'https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp',
+            url: computer,
             alt: 'Default Banner'
         }
     },

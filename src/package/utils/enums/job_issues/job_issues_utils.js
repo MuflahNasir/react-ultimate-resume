@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 export const JobIssues = Object.freeze({
     NO_TECH: 'no_tech',
     NO_RESPONSABILITIES: 'no_responsabilities',

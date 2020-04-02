@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 export const styles = {
     bold: {
         fontWeight: 500

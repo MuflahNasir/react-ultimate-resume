@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import get from 'lodash/get';
 
 const hexToRgb = hex => {

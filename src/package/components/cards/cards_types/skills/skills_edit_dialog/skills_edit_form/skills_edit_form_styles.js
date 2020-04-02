@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import { createScreenWidthMediaQuery, withCustomVerticalScrollbar } from '../../../../../../utils/styles/styles_utils';
 
 export const styles = theme => {

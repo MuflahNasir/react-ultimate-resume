@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import * as Yup from 'yup';
 import { skillTranslations } from './validator_translations';
 

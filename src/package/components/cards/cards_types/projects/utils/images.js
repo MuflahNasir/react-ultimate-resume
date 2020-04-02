@@ -1,1 +1,2 @@
-export const DEFAULT_PROJECT_IMAGE = 'https://cdn.filestackcontent.com/resize=w:500/compress/dLXE4WC8S3mZFZNfClTK';
+import image from '../../../../../assets/images/img.png'
+export const DEFAULT_PROJECT_IMAGE = image;

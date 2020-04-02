@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 export const flex = Object.freeze({
     center: Object.freeze({
         display: 'flex',

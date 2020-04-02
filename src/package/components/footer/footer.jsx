@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React, { memo } from 'react';
 
 import cn from 'classnames';
@@ -62,24 +63,7 @@ const FooterComponent = () => {
 
     return (
         <div className={classes.container}>
-            <a className={classes.logoLink} href="https://welovedevs.com" target="_blank" rel="noreferrer noopener">
-                <Logo className={classes.logo} />
-            </a>
             <ShareLinks />
-            <Tooltip
-                title={
-                    <FormattedMessage id="Footer.github.tooltip" defaultMessage="Create your own developer profile!" />
-                }
-            >
-                <a
-                    className={classes.githubLink}
-                    href="https://github.com/welovedevs/developer-profile"
-                    target="_bank"
-                    rel="noreferer noopener"
-                >
-                    <GithubLogo className={classes.githubLogo} />
-                </a>
-            </Tooltip>
         </div>
     );
 };

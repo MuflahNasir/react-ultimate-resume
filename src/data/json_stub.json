@@ -1,53 +1,35 @@
 {
     "basics": {
-        "name": "John Doe",
+        "name": "Muflah Nasir",
         "label": "Programmer",
         "picture": "",
-        "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "email": "muflahnasir@gmail.com",
+        "phone": "0332-0400365",
+        "website": "https://muflahnasir007.wixsite.com/muflahnasir",
+        "summary": "Android Developer & Frontend Webdeveloper",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "100/8 Street# 10",
+            "postalCode": "54000",
+            "city": "Lahore",
+            "countryCode": "Pakistan",
+            "region": "Punjab"
         },
         "profiles": [
             {
                 "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "username": "@MuflahNasir",
+                "url": "https://twitter.com/MuflahNasir"
             }
         ]
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Idea94",
+            "position": "Android Developer & Frontend Webdeveloper",
+            "website": "https://www.idea94.com/",
+            "startDate": "2019-07-02",
+            "summary": "Currently, I am working in a software house as a developer and I am working on several projects individually or with a team. I have also published an android application on PlayStore. I am competent and can handle the pressure efficiently. And I am good at meeting deadlines too!!!",
+            "location": "Lahore, Pakistan",
             "highlights": ["Started the company"]
         }
     ],
@@ -63,22 +45,13 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Govt. Postgraduate College for Women Samnabad, Lahore",
+            "area": "Computer Science",
+            "studyType": "BS Hons.",
+            "startDate": "2015-10-08",
+            "endDate": "2019-08-19",
+            "gpa": "3.72",
+            "courses": ["OOP, DB, Software Engineering"]
         }
     ],
     "awards": [
@@ -91,118 +64,131 @@
     ],
     "publications": [
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "name": "Tax Calculator 2019-2020",
+            "publisher": "Idea94",
+            "releaseDate": "2019-10-01",
+            "website": "https://play.google.com/store/apps/details?id=com.taxcalculatoridea94&hl=en",
+            "summary": "You just need to put required input and click calculate. It will automatically display the income tax stats against your taxable income or input for years 2019-2020. Furthermore, you can also see the income tax slabs by clicking on 'TAX SLABS' button under ‘Action Menu‘ for the 2019-2020. "
         }
     ],
     "skills": [
         {
-            "name": "Reactaaa",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Android",
+            "level": "Intermediate",
+            "value": 75,
+            "keywords": ["Java", "XML"]
         },
         {
             "name": "Angular",
-            "level": "Master",
-            "value": 80,
+            "level": "Intermediate",
+            "value": 70,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
             "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
+            "level": "Beginner",
+            "value": 35,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
             "name": "Firebase",
-            "level": "Master",
-            "value": 60,
+            "level": "Intermediate",
+            "value": 75,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
+            "name": "React Native",
+            "level": "Intermediate",
+            "value": 70,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
+            "name": "Reactjs",
+            "level": "Intermediate",
+            "value": 65,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Bootstrap",
+            "level": "Intermediate",
+            "value": 75,
             "keywords": ["HTML", "CSS", "Javascript"]
         }
     ],
     "languages": [
-        { "language": "English", "value": 100, "fluency": "Native speaker" }
+        { "language": "English", "value": 80, "fluency": "Native speaker" },
+        { "language": "Urdu", "value": 100, "fluency": "Native speaker" }
     ],
     "interests": [
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+            "name": "Book Reading",
+            "gifUrl": "https://media.giphy.com/media/8BS2RgwTl9Z7O/giphy.gif"
         },
         {
-            "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
+            "name": "Badminton",
+            "gifUrl": "https://media.giphy.com/media/jnEbIEVqWxY1W/giphy.gif"
         },
         {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-        },
-        {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "name": "Music",
+            "gifUrl": "https://media.giphy.com/media/lqSDx8SI1916ysr4eq/giphy.gif"
         }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
-            "name": "Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
+            "name": "Travel Pedia",
+            "description": "Where you can plan tour for yourself without any expenses. You can also check hotels and cars for rent so that you won't have to face any problem. It mainly helps foreigners with language translator and GPS.",
+            "images": []
+        },
+        {
+            "name": "Tax Calculator",
+            "description": "You just need to put required input and click calculate. It will automatically display the income tax stats against your taxable income or input for years 2019-2020. Furthermore, you can also see the income tax slabs by clicking on 'TAX SLABS' button under ‘Action Menu‘ for the 2019-2020.",
+            "images": []
+        },
+        {
+            "name": "One Street Shop",
+            "description": "A webview android application of www.onestreetshop.com",
+            "images": []
+        },
+        {
+            "name": "KPI Management",
+            "description": "Handling a frontend of an italian business web application",
+            "images": []
+        },
+        {
+            "name": "Speed Rent Home",
+            "description": "Handling a frontend of a web application based on properties that are available for rent and sale.",
             "images": []
         }
     ],
     "specific": {
         "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "visaSponsorship": false,
+            "personalDescription": "Hey everyone!!! My name is Muflah Nasir and I am an android developer in JAVA and React Native and have some expertise in frontend web development in angular & bootstrap."
         },
         "dreamJob": {
             "locations": [
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Valenciennes, France" }
+                { "name": "California, USA" },
+                { "name": "Lahore, Pakistan" }
             ],
             "remoteFrequency": "regularly"
         },
         "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
+            "issues": { "salary": true, "location": true }
         },
-        "education": { "studiesLevel": 5 },
+        "education": { "studiesLevel": 4 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+            "codingYears": 2,
+            "codingReason": "I love solving new problems. Coding is a challenge and I am always ready to accept new one.",
             "searchState": "activelySearching",
-            "experienceYears": 9
+            "experienceYears": 1
         },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Coding, books, music, food and kittens"
     },
     "customization": {
         "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+            "url": "https://www.google.com/search?q=banner+wallpapers+for+resume&sxsrf=ALeKk01zAnDyVKpjBM-RLYAdJ-Tm8Ebsgg:1585801622280&source=lnms&tbm=isch&sa=X&ved=2ahUKEwieg4Wz88joAhULUcAKHYcyBskQ_AUoAXoECAwQAw&biw=1455&bih=688&dpr=1#imgrc=NpFSWZHjpYpRoM",
             "alt": "Default Banner"
         },
         "theme": {
@@ -257,8 +243,7 @@
             { "type": "studies", "variant": 4 },
             { "type": "gifs", "variant": 0 },
             { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
+            { "type": "language", "variant": 4 }
         ]
     }
 }

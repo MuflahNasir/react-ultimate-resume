@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import { config } from 'react-spring';
 
 export const ALL_TECHNOLOGIES_TRANSITIONS_SPRING_PROPS = {

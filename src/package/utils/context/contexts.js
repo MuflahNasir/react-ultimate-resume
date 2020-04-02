@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import { createContext } from 'react';
 
 export const DeveloperProfileContext = createContext({});

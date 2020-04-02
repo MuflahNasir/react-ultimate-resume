@@ -1,3 +1,4 @@
+/*  eslint linebreak-style: ["error", "windows"]    */
 import React, { memo } from 'react';
 
 import cn from 'classnames';
@@ -8,9 +9,6 @@ import { animated, config, useTransition } from 'react-spring';
 import { Typography } from '@wld/ui';
 
 import { UserInformations } from './user_actions_row/user_informations/user_informations';
-import { SocialActions } from './user_actions_row/social_actions/social_actions';
-import { CustomizeButton } from './user_actions_row/customize_button/customize_button';
-import { EditHeaderImageButton } from './edit_header_image_button/edit_header_image_button';
 
 import { OPACITY_TRANSITIONS } from '../../utils/springs/common_transitions/opacity_transitions';
 
@@ -20,16 +18,13 @@ import { useReceivedGlobalClasses } from '../hooks/use_received_global_classes';
 
 import { styles } from './banner_styles';
 import { useMode } from '../hooks/use_mode';
-import { EditButton } from './user_actions_row/edit_button/edit_button';
 
 const useStyles = createUseStyles(styles);
 
 const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
     const classes = useStyles();
     const [mode] = useMode();
-    const [actionsButtons] = useAdditionalNodes('banner.actionsButtons', null);
     const [globalReceivedBannerClasses = {}] = useReceivedGlobalClasses('banner');
-    const [isEditing] = useIsEditing();
 
     const transitions = useTransition(customizationOptions?.imageHeader || null, item => `${item?.alt}_${item.url}`, {
         ...OPACITY_TRANSITIONS,
@@ -40,9 +35,6 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
     const bannerImageCredits = customizationOptions?.imageHeader?.credits;
     return (
         <div className={cn(classes.container, globalReceivedBannerClasses.container)}>
-            {isEditing && onCustomizationChanged && (
-                <EditHeaderImageButton customizationOptions={customizationOptions} />
-            )}
             <div className={cn(classes.overlay, globalReceivedBannerClasses.overlay)} />
             {transitions?.map(
                 ({ item, key, props }) =>
@@ -58,11 +50,6 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
             )}
             <div className={cn(classes.content, globalReceivedBannerClasses.content)}>
                 <UserInformations />
-                <SocialActions>
-                    {actionsButtons}
-                    {mode === 'edit' && <EditButton />}
-                    {mode === 'edit' && <CustomizeButton customizationOptions={customizationOptions} />}
-                </SocialActions>
             </div>
             {bannerImageCredits?.name && (
                 <Typography
