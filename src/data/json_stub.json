@@ -168,8 +168,8 @@
         },
         "dreamJob": {
             "locations": [
-                { "name": "California, USA" },
-                { "name": "Lahore, Pakistan" }
+                { "name": "Netsol, Pakistan" },
+                { "name": "Google Inc., USA" }
             ],
             "remoteFrequency": "regularly"
         },
@@ -184,7 +184,7 @@
             "searchState": "activelySearching",
             "experienceYears": 1
         },
-        "interestedBy": "Coding, books, music, food and kittens"
+        "interestedBy": "Python and Artificial Intelligence"
     },
     "customization": {
         "imageHeader": {
@@ -194,42 +194,42 @@
         "theme": {
             "palette": {
                 "primary": {
-                    "50": "#ffecf0",
-                    "100": "#ffd9e0",
-                    "200": "#ffb4c1",
-                    "300": "#fe8ea3",
-                    "400": "#fe6984",
-                    "500": "#fe4365",
-                    "600": "#cb3651",
-                    "700": "#98283d",
-                    "800": "#661b28",
-                    "900": "#330d14",
+                    "50": "#774f38",
+                    "100": "#774f38",
+                    "200": "#774f38",
+                    "300": "#774f38",
+                    "400": "#774f38",
+                    "500": "#774f38",
+                    "600": "#774f38",
+                    "700": "#774f38",
+                    "800": "#774f38",
+                    "900": "#774f38",
                     "contrastDefaultColor": "light"
                 },
                 "secondary": {
-                    "50": "#fff5f5",
-                    "100": "#feebeb",
-                    "200": "#fed8d7",
-                    "300": "#fdc4c2",
-                    "400": "#fdb1ae",
-                    "500": "#fc9d9a",
-                    "600": "#ca7e7b",
-                    "700": "#975e5c",
-                    "800": "#653f3e",
-                    "900": "#321f1f",
+                    "50": "#e08e79",
+                    "100": "#e08e79",
+                    "200": "#e08e79",
+                    "300": "#e08e79",
+                    "400": "#e08e79",
+                    "500": "#e08e79",
+                    "600": "#e08e79",
+                    "700": "#e08e79",
+                    "800": "#e08e79",
+                    "900": "#e08e79",
                     "contrastDefaultColor": "light"
                 },
                 "tertiary": {
-                    "50": "#fefaf7",
-                    "100": "#fef5ef",
-                    "200": "#fdebde",
-                    "300": "#fbe1ce",
-                    "400": "#fad7bd",
-                    "500": "#f9cdad",
-                    "600": "#c7a48a",
-                    "700": "#957b68",
-                    "800": "#645245",
-                    "900": "#322923",
+                    "50": "#f1d4ae",
+                    "100": "#f1d4ae",
+                    "200": "#f1d4ae",
+                    "300": "#f1d4ae",
+                    "400": "#f1d4ae",
+                    "500": "#f1d4ae",
+                    "600": "#f1d4ae",
+                    "700": "#f1d4ae",
+                    "800": "#f1d4ae",
+                    "900": "#f1d4ae",
                     "contrastDefaultColor": "light"
                 }
             }
